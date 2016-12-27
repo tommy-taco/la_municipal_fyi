@@ -1,13 +1,28 @@
 ---
-title: Welcome to Middleman
+title: LA Municipal 2017 FYI
 ---
 
-<div class="welcome">
-  <div class="logo">
-    <%= image_tag "middleman-logo.svg" %>
+  <div class="jumbotron">
+  <div class="container">
+  <h2>Municipal.FYI</h2>
+  <p>LA Municipal Elections 2017</p>
   </div>
-  <h1>Middleman is Running</h1>
-  <p class="doc">
-    <%= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+  </div>
+  
+
+<h1>Ballot</h1>
+  <% data.election.races.each do |r| %>
+    <div class="container">
+        <div class="row">
+          <h2><%= r.title %></h2>
+            <div class="col-md-12">
+              <% r.candidates.each do |c| %>
+                <%= partial("candidate", :locals => { :name => c.name, :title => c.title, :website => c.website} ) %>
+              <% end %>
+          </div>
+        </div>
+    </div>
+    <% end %>
+
+ 
+</div>

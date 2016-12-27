@@ -1,0 +1,57 @@
+{
+  "races": [
+    {
+      "title": "Mayor of Los Angeles",
+      "description": "The Mayor of the City of Los Angeles is the official head and chief executive officer of Los Angeles, California and elected for a four year term.",
+      "candidates": [
+        {
+          "name": "Eric Garcetti",
+          "incumbent": true,
+          "title": "Mayor of Los Angeles",
+          "website": "http://www.ericgarcetti.com/"
+        },
+        {
+          "name": "Mitchell Schwartz",
+          "incumbent": false,
+          "title": "Political Strategist and Environmentalist",
+          "website": "http://schwartzformayor.com/"
+        },
+        {
+          "name": "Steve Barr",
+          "incumbent": false,
+          "title": "Educator and Activist",
+          "website": "http://www.stevebarrformayor.com/"
+        }
+      ]
+    },
+    {
+      "title": "Council District 1",
+      "description": "Council District Representing northwest of Downtown Los Angeles",
+      "candidates": [
+        {
+          "name": "Gil Cedillo",
+          "incumbent": true,
+          "title": "City Council Member",
+          "website": "http://www.gilcedillo.com/"
+        },
+        {
+          "name": "Joe Bray-Ali",
+          "incumbent": false,
+          "title": "Small Business Owner and Community Organizer",
+          "website": "http://joe4cd1.com/"
+        }
+      ]
+    }
+  ],
+    "measures": [
+    {
+      "title": "Measure S",
+      "description": "Initiative to building development for two years",
+      "candidates": [
+      {"for": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor."},
+      {"against": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor."}
+    ]}
+]
+}
+
+    
