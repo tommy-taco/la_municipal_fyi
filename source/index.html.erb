@@ -9,15 +9,16 @@ title: LA Municipal 2017 FYI
   </div>
   </div>
   
-
-<h1>Ballot</h1>
+  <div class="container">
+  	<h1>Ballot</h1>
+  </div>
   <% data.election.races.each do |r| %>
     <div class="container">
+        <h2><%= r.title %></h2>
         <div class="row">
-          <h2><%= r.title %></h2>
             <div class="col-md-12">
               <% r.candidates.each do |c| %>
-                <%= partial("candidate", :locals => { :name => c.name, :title => c.title, :website => c.website} ) %>
+                <%= partial("candidate", :locals => { :name => c.name, :title => c.title, :website => c.website, :image => c.image} ) %>
               <% end %>
           </div>
         </div>

@@ -8,19 +8,22 @@
           "name": "Eric Garcetti",
           "incumbent": true,
           "title": "Mayor of Los Angeles",
-          "website": "http://www.ericgarcetti.com/"
+          "website": "http://www.ericgarcetti.com/",
+          "image": "/images/EGH.jpg"
         },
         {
           "name": "Mitchell Schwartz",
           "incumbent": false,
           "title": "Political Strategist and Environmentalist",
-          "website": "http://schwartzformayor.com/"
+          "website": "http://schwartzformayor.com/",
+          "image": "/images/EGH.jpg"
         },
         {
           "name": "Steve Barr",
           "incumbent": false,
           "title": "Educator and Activist",
-          "website": "http://www.stevebarrformayor.com/"
+          "website": "http://www.stevebarrformayor.com/",
+          "image": "/images/EGH.jpg"
         }
       ]
     },
@@ -32,13 +35,15 @@
           "name": "Gil Cedillo",
           "incumbent": true,
           "title": "City Council Member",
-          "website": "http://www.gilcedillo.com/"
+          "website": "http://www.gilcedillo.com/",
+          "image": "/images/EGH.jpg"
         },
         {
           "name": "Joe Bray-Ali",
           "incumbent": false,
           "title": "Small Business Owner and Community Organizer",
-          "website": "http://joe4cd1.com/"
+          "website": "http://joe4cd1.com/",
+          "image": "/images/EGH.jpg"
         }
       ]
     }
