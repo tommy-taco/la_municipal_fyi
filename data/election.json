@@ -2,6 +2,7 @@
   "races": [
     {
       "title": "Mayor of Los Angeles",
+      "measure": false,
       "description": "The Mayor of the City of Los Angeles is the official head and chief executive officer of Los Angeles, California and elected for a four year term.",
       "candidates": [
         {
@@ -9,26 +10,40 @@
           "incumbent": true,
           "title": "Mayor of Los Angeles",
           "website": "http://www.ericgarcetti.com/",
-          "image": "/images/EGH.jpg"
+          "image": "/images/EGH.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
         },
         {
           "name": "Mitchell Schwartz",
           "incumbent": false,
           "title": "Political Strategist and Environmentalist",
           "website": "http://schwartzformayor.com/",
-          "image": "/images/EGH.jpg"
-        },
-        {
-          "name": "Steve Barr",
-          "incumbent": false,
-          "title": "Educator and Activist",
-          "website": "http://www.stevebarrformayor.com/",
-          "image": "/images/EGH.jpg"
+          "image": "/images/ms.jpg",
+          "platform": [
+            "Ethics Reform",
+            "Environment",
+            "DWP Reform"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
         }
       ]
     },
     {
       "title": "Council District 1",
+      "measure": false,
       "description": "Council District Representing northwest of Downtown Los Angeles",
       "candidates": [
         {
@@ -36,27 +51,79 @@
           "incumbent": true,
           "title": "City Council Member",
           "website": "http://www.gilcedillo.com/",
-          "image": "/images/EGH.jpg"
+          "image": "/images/gc.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
         },
         {
           "name": "Joe Bray-Ali",
           "incumbent": false,
           "title": "Small Business Owner and Community Organizer",
           "website": "http://joe4cd1.com/",
-          "image": "/images/EGH.jpg"
+          "image": "/images/jba.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
         }
       ]
-    }
-  ],
-    "measures": [
+    },
     {
-      "title": "Measure S",
-      "description": "Initiative to building development for two years",
+      "title": "Council District 5",
+      "measure": false,
+      "description": "Council District representing the Westside, parts of the Santa Monica Mountains, and the central-southern San Fernando Valley.",
       "candidates": [
-      {"for": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor."},
-      {"against": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor."}
-    ]}
-]
+        {
+          "name": "Paul Koretz",
+          "incumbent": true,
+          "title": "City Council Member",
+          "website": "http://www.paulkoretz2017.com/",
+          "image": "/images/pk.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        },
+        {
+          "name": "Jesse Creed",
+          "incumbent": false,
+          "title": "Attorney",
+          "website": "http://www.creedforcouncil.com/",
+          "image": "/images/jc.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        }
+      ],
+      "for": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor.",
+      "against": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor."
+    }
+  ]
 }
-
-    
