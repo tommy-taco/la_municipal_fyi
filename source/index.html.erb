@@ -2,45 +2,58 @@
 title: LA Municipal 2017 FYI
 ---
 
-  <div class="jumbotron">
-  <div class="container">
-  <h2>Municipal.FYI</h2>
-  <p>LA Municipal Elections 2017</p>
-  </div>
-  </div>
-  
-  <div class="container">
-  	<h1>Ballot</h1>
-  </div>
-  <% data.election.races.each do |r| %>
-  <div style="width:100%">
-    <div class="container">
-        <h2><%= r.title %></h2>
-        <div class="row">
-	        <div class="description">
-		        <% if r.measure===true %>
-		        	<%= r.description %><br><br><strong>Yes and No</strong>
-		        <% else %>
-		        	<%= r.description %><br><br><strong>Candidates</strong>
-		        <% end %>
-	        </div>
-	        
-	        <% if r.measure===true %>
-	        	<div class="col-md-12">
-	              
-	          	</div>
-	        <% else %>
-	            <div class="col-md-12">
-	              <% r.candidates.each do |c| %>
-	                <%= partial("candidate", :locals => { :name => c.name, :title => c.title, :website => c.website, :image => c.image, :incumbent => c.incumbent} ) %>
-	              <% end %>
-	          	</div>
-		  	<% end %>
-        </div>
-    </div>
-  </div>
-  <% end %>
-    
-
- 
-</div>
+	<div class="jumbotron">
+		<div class="container">
+			<h2>Municipal.FYI</h2>
+			<p>LA Municipal Elections 2017</p>
+		</div>
+	</div>
+	
+	<div class="container">
+		<h1>Ballot</h1>
+	</div>
+	  
+	<div class="container">
+	  
+		<div class="rowsOfItems">
+		
+			<% data.election.races.each do |r| %>
+			
+				<div style="width:100%">
+					
+					<div>
+						<h2><%= r.title %></h2>
+						
+						<div class="row">
+							<div class="description">
+								<% if r.measure===true %>
+									<%= r.description %><br><br><strong>Yes and No</strong>
+								<% else %>
+									<%= r.description %><br><br><strong>Candidates</strong>
+								<% end %>
+							</div>
+						
+							<% if r.measure===true %>
+								<div class="col-md-12">
+								
+								</div>
+							<% else %>		
+								<div class="col-md-12">
+									<% r.candidates.each do |c| %>
+										<%= partial("candidate", :locals => { :name => c.name, :title => c.title, :website => c.website, :image => c.image, :incumbent => c.incumbent} ) %>
+									<% end %>
+								</div>
+							<% end %>
+						</div>
+					</div>
+				
+				</div> <! width 100% !> 
+			
+			<% end %><! do loop !>
+		
+		</div> <!colmd9!>
+		
+		<div class="tableOfContents">
+			<p><strong>Table of Contents</strong></p><p>Show me what you got</p>
+		</div>
+	</div>

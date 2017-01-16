@@ -443,6 +443,24 @@ div .socialDiv {
 	margin-bottom: 10px;
 	margin-top: 5px;
 }
+div .rowsOfItems {
+	float:left;
+	width: 75%;
+}
+
+@media (min-width: 320px) {
+div .tableOfContents {
+	padding-left: 15px;
+}
+}
+
+@media (min-width: 1440px) {
+div .tableOfContents {
+	position: fixed;
+	right: 140px;
+	width: 240px;
+}
+}
 
 @media (min-width: 736px) {
   img {
