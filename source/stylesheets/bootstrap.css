@@ -432,15 +432,16 @@ img {
   vertical-align: top;
   margin-right: 5px;
   max-width: 20%;
-  margin-bottom: 5px;
 }
 div .descriptionDiv {
 	display: inline-block; 
 	max-width: 76%;
 }
 div .socialDiv {
-	display: inline-block; 
-	max-width: 76%;
+	display: block; 
+	max-width: 100%;
+	margin-bottom: 10px;
+	margin-top: 5px;
 }
 
 @media (min-width: 736px) {
@@ -450,9 +451,6 @@ div .socialDiv {
   }
   div .descriptionDiv{
 	  display: inline-block; 
-	  max-width: 100%;
-  }
-  div .socialDiv{
 	  max-width: 100%;
   }
 }

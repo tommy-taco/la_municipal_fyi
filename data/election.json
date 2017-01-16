@@ -121,9 +121,22 @@
             "Test"
           ]
         }
-      ],
-      "for": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor.",
-      "against": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor."
+      ]
+    },
+    {
+      "title": "Measure Test",
+      "measure": true,
+      "description": "Show Me What You Got",
+      "options": [
+	      {
+		      "option": "Yes",
+		      "reasons": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor." 
+	      },
+	      {
+		      "option": "No",
+		      "reasons": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor." 
+	      }
+      ]
     }
   ]
 }

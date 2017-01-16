@@ -17,16 +17,30 @@ title: LA Municipal 2017 FYI
         <h2><%= r.title %></h2>
         <div class="row">
 	        <div class="description">
-	        <p>This is a sample description of the position. <br> it will likely be very long and need to include other information.<br><br>AJ, make sure this is added to the data structure for each "r"</p><strong>Candidates</strong>
+		        <% if r.measure===true %>
+		        	<%= r.description %><br><br><strong>Yes and No</strong>
+		        <% else %>
+		        	<%= r.description %><br><br><strong>Candidates</strong>
+		        <% end %>
 	        </div>
-            <div class="col-md-12">
-              <% r.candidates.each do |c| %>
-                <%= partial("candidate", :locals => { :name => c.name, :title => c.title, :website => c.website, :image => c.image, :incumbent => c.incumbent} ) %>
-              <% end %>
-          </div>
+	        
+	        <% if r.measure===true %>
+	        	<div class="col-md-12">
+	              <% r.options.each do |c| %>
+	              	<p>something needs to go here</p>
+	              <% end %>
+	          	</div>
+	        <% else %>
+	            <div class="col-md-12">
+	              <% r.candidates.each do |c| %>
+	                <%= partial("candidate", :locals => { :name => c.name, :title => c.title, :website => c.website, :image => c.image, :incumbent => c.incumbent} ) %>
+	              <% end %>
+	          	</div>
+		  	<% end %>
         </div>
     </div>
     <% end %>
+    
 
  
 </div>
