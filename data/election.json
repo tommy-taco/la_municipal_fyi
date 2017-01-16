@@ -124,6 +124,7 @@
       ]
     },
     {
+<<<<<<< Updated upstream
       "title": "Measure Test",
       "measure": true,
       "description": "Show Me What You Got",
@@ -136,6 +137,382 @@
 		      "option": "No",
 		      "reasons": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor." 
 	      }
+=======
+      "title": "Measure S",
+      "measure": true,
+      "description": "Initiative to building development for two years",
+      "for": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor.",
+      "against": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor."
+    },
+    {
+      "title": "Council District 7",
+      "measure": false,
+      "description": "Council District representing the northeast San Fernando Valley.",
+      "candidates": [
+        {
+          "name": "Monica Rodriguez",
+          "incumbent": false,
+          "title": "Community Leader, Veteran, and former CHP Officer",
+          "website": "https://monicaforcitycouncil.com/",
+          "image": "/images/mr.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        },
+        {
+          "name": "Karo Torossian",
+          "incumbent": false,
+          "title": "Community Organizer and Government Administrator",
+          "website": "https://karo4council.com/",
+          "image": "/images/kt.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        },
+        {
+          "name": "Mónica Ratliff",
+          "incumbent": false,
+          "title": "Teacher and School Board member",
+          "website": "https://monicaratliff2017.nationbuilder.com/about",
+          "image": "/images/mr2.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        },
+        {
+          "name": "Venessa F Martinez",
+          "incumbent": false,
+          "title": "Deputy Attorney General",
+          "website": "http://www.votevenessa.com/",
+          "image": "/images/vm.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Council District 9",
+      "measure": false,
+      "description": "Council District representing the Western Downtown and much of South LA",
+      "candidates": [
+        {
+          "name": "Curren Price",
+          "incumbent": true,
+          "title": "City Council Member",
+          "website": "http://currenpricejr.com/citycouncil/curren/",
+          "image": "/images/cp.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        },
+        {
+          "name": "Jorge Nuño",
+          "incumbent": false,
+          "title": "Community Activist and Graphic Designer",
+          "website": "http://www.nunoforcouncil.com/",
+          "image": "/images/jn.jpg",
+          "fb": "https://www.facebook.com/nunocd9/",
+          "twitter": "https://twitter.com/nuno213",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Council District 11",
+      "measure": false,
+      "description": "Council District representing the Westside",
+      "candidates": [
+        {
+          "name": "Mike Bonin",
+          "incumbent": true,
+          "title": "City Council Member",
+          "website": "http://www.mikebonin2017.com/",
+          "facebook": "https://www.facebook.com/mikebonincampaign/",
+          "twitter": "https://twitter.com/mikebonin",
+          "image": "/images/mb.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        },
+        {
+          "name": "Mark Ryavec",
+          "incumbent": false,
+          "title": "Community and Coastal Activist",
+          "website": "http://www.markryavec2017.com/",
+          "image": "/images/mr3.jpg",
+          "fb": "https://www.facebook.com/Mark-Ryavec-for-City-Council-2017-328238480879760/",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Council District 13",
+      "measure": false,
+      "description": "Council District representing Central Los Angeles",
+      "candidates": [
+        {
+          "name": "Mitch O'Farrell",
+          "incumbent": true,
+          "title": "City Council Member",
+          "website": "http://www.mitchofarrell.com/",
+          "facebook": "https://www.facebook.com/CouncilmemberMitchOFarrell",
+          "twitter": "https://twitter.com/mitchofarrell",
+          "image": "/images/mo.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        },
+        {
+          "name": "Sylvie Shain",
+          "incumbent": false,
+          "title": "Housing Rights Advocate",
+          "website": "https://www.sylvieshain.com/",
+          "image": "/images/ss.jpg",
+          "fb": "https://www.facebook.com/sylvieforcitycouncil",
+          "twitter": "https://twitter.com/sylvieshain",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "School Board District 2",
+      "measure": false,
+      "description": "School Board District representing Downtown Los Angeles",
+      "candidates": [
+        {
+          "name": "Mónica García",
+          "incumbent": true,
+          "title": "School Board Member",
+          "website": "http://monica4schoolboard.com/",
+          "image": "/images/mg.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "School Board District 4",
+      "measure": false,
+      "description": "School Board District representing the Westside",
+      "candidates": [
+        {
+          "name": "Steve Zimmer",
+          "incumbent": true,
+          "title": "School Board President",
+          "website": "http://achieve.lausd.net/zimmer#spn-content",
+          "image": "/images/sz.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        },
+        {
+          "name": "Nick Melvoin",
+          "incumbent": false,
+          "title": "Teacher, Attorney, and Public Education Advocate",
+          "website": "http://www.nickmelvoin.com/",
+          "image": "/images/nm.jpg",
+          "fb": "https://www.facebook.com/nickmelvoinforschoolboard/",
+          "twitter": "https://twitter.com/nickmelvoin",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        },
+        {
+          "name": "Allison Holdorff",
+          "incumbent": false,
+          "title": "Public School Governing Board leader and Educator",
+          "website": "http://www.allisonforstudents.com/",
+          "image": "/images/ah.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        },
+        {
+          "name": "Gregory Martayan",
+          "incumbent": false,
+          "title": "Education Advocate",
+          "website": "http://www.votemartayan.com/index.html",
+          "image": "/images/ah.jpg",
+          "fb": "https://www.facebook.com/VoteMartayan/",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "School Board District 6",
+      "measure": false,
+      "description": "School Board District representing the Northern San Fernando Valley",
+      "candidates": [
+        {
+          "name": "Kelly Gonez",
+          "incumbent": false,
+          "title": "Teacher and Policy Maker",
+          "website": "http://www.kellygonez.com/",
+          "fb": "https://www.facebook.com/kellygonezforschoolboard/",
+          "image": "/images/kg.jpg",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        },
+        {
+          "name": "Imelda Padilla",
+          "incumbent": false,
+          "title": "Community Organizer",
+          "website": "http://imeldaforschoolboard.com/",
+          "image": "/images/ip.jpg",
+          "fb": "https://www.facebook.com/imeldaforschools/",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        },
+        {
+          "name": "Araz Parseghian",
+          "incumbent": false,
+          "title": "Businessman and Community Leader",
+          "website": "https://www.arazforlausd.com/",
+          "image": "/images/ap.jpg",
+          "fb": "https://www.facebook.com/arazforlausd/",
+          "platform": [
+            "Test",
+            "Test",
+            "Test"
+          ],
+          "endorsements": [
+            "Test",
+            "Test",
+            "Test"
+          ]
+        }
+>>>>>>> Stashed changes
       ]
     }
   ]
