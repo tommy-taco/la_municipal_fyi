@@ -17,11 +17,11 @@ title: LA Municipal 2017 FYI
         <h2><%= r.title %></h2>
         <div class="row">
 	        <div class="description">
-	        <p>This is a sample description of the position. <br> it will likely be very long and need to include other information.<br><br>AJ, make sure this is added to the data structure for each "r"</p><br>
+	        <p>This is a sample description of the position. <br> it will likely be very long and need to include other information.<br><br>AJ, make sure this is added to the data structure for each "r"</p><strong>Candidates</strong>
 	        </div>
             <div class="col-md-12">
               <% r.candidates.each do |c| %>
-                <%= partial("candidate", :locals => { :name => c.name, :title => c.title, :website => c.website, :image => c.image} ) %>
+                <%= partial("candidate", :locals => { :name => c.name, :title => c.title, :website => c.website, :image => c.image, :incumbent => c.incumbent} ) %>
               <% end %>
           </div>
         </div>

@@ -1,7 +1,15 @@
 <div class="col-md-2 col-sm-12">
       <img src="<%= image %>" alt=<%= name %> />
-      <div style="display: inline-table">
-      <h3><a href="<%= website %>"><%= name %></a></h3>
-      <h4><%= title %></h4>
+      
+      <div class="descriptionDiv">
+	      <h3><%= name %></h3>
+	      <h4><%= title %></h4>
+	      <% if incumbent===true %>
+		  <h4><i>Incumbent</i></h4>
+		  <% else %>
+		  <% end %>
+      </div>
+      <div class ="socialDiv">
+	      <h4><a href="<%= website %>"><%= website %></a></h4>	      
       </div>
 </div class="col-md-2 col-sm-12">
