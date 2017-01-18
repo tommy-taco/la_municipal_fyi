@@ -1,15 +1,18 @@
-<div class="col-md-2 col-sm-12">
+<div class="col-md-3 col-sm-12" style="padding-left: 0px; padding-right: 0px; margin-top: 2%; margin-right: 1.5%;">
       <img src="<%= image %>" alt=<%= name %> />
       
       <div class="descriptionDiv">
-	      <h3><%= name %></h3>
+	      <h3><a href="<%= website %>" title="<%= website %>"><%= name %></a></h3>
 	      <h4><%= title %></h4>
 	      <% if incumbent===true %>
 		  <h4 style="margin-top: -5px; color: #4e4e4e; margin-bottom: 0px;"><i>Incumbent</i></h4>
 		  <% else %>
 		  <% end %>
       </div>
-      <div class ="socialDiv">
-	      <h4><a href="<%= website %>">Website</a></h4>	  
+      <div class="arrowDiv">
+	      <a href="<%= website %>"><img style="max-width: none;" src="images/arrow.svg"></a>
       </div>
-</div class="col-md-2 col-sm-12">
+      <!-- <div class ="socialDiv">
+	      <a href="<%= website %>"><img class="icons" src="/images/Web2.svg"></a><a href="google.com"><img class="icons" src="/images/FB.svg"></a><a href="google.com"><img class="icons" src="/images/TW.svg"></a> 	  <! NEED TO UPDATE FB AND TWITTER !>
+      </div>-->		
+</div>

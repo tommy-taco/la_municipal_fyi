@@ -430,13 +430,27 @@ figure {
 
 img {
   vertical-align: top;
-  margin-right: 5px;
   max-width: 20%;
+  max-height: 20%;
+ 
 }
+
+.icons {
+	width: 50%;
+	
+}
+
 div .descriptionDiv {
 	display: inline-block; 
-	max-width: 76%;
+	max-width: 68%;
 }
+div .arrowDiv {
+	display: inline-block;
+    width: 10%;
+    height: 20%;
+    float: right;
+}
+    
 div .socialDiv {
 	display: block; 
 	max-width: 100%;
@@ -907,6 +921,7 @@ pre code {
 }
 .description {
 	margin-left:15px;
+	margin-right:15px;
 	margin-bottom: 5px;
 }
 .col-xs-12, .col-sm-12{
