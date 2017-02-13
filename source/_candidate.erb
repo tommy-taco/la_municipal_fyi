@@ -1,7 +1,7 @@
 <div class="col-md-3 col-sm-12" style="padding-left: 0px; padding-right: 0px; margin-top: 2%; margin-right: 1.5%;">
-      <img src="<%= image %>" alt=<%= name %> />
+      	<img src="<%= image %>" alt=<%= name %> />
       
-      <div class="descriptionDiv">
+      	<div class="descriptionDiv">
 	      <% if endorsed===true %>
 	      	<h3 class="endorsed"><a href="<%= website %>" title="<%= website %>"><%= name %></a></h3>
 		  <% else %>
@@ -10,8 +10,15 @@
 	      <% if incumbent===true %>
 		  <h4 style="color: #4e4e4e; margin-bottom: 0px;"><i>Incumbent</i></h4>		  <% else %>
 		  <% end %>
-		  
-      </div>
+		</div>
+		
+		<div class="descriptionDiv">
+			<h4><strong>Platform</strong></h4>
+			
+			<h4><strong>Endorsements</strong></h4>
+			
+		</div>
+		
       <!--<div class="arrowDiv">
 	      <a href="<%= website %>"><img style="max-width: none;" src="images/arrow.svg"></a>
       </div> -->

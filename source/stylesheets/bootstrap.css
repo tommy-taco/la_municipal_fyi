@@ -617,7 +617,7 @@ h3, .h3 {
 }
 
 h3.endorsed::after {
-    content: url('/images/LA_Times_icon.png');
+    content: url('/images/LA_Times.jpeg');
     margin-left: 5px;
   }
 
