@@ -34,7 +34,7 @@ title: LA Municipal.FYI
 							<% else %>		
 								<div class="col-md-12">
 									<% r.candidates.each do |c| %>
-										<%= partial("candidate", :locals => { :name => c.name, :title => c.title, :website => c.website, :image => c.image, :incumbent => c.incumbent} ) %>
+										<%= partial("candidate", :locals => { :name => c.name, :title => c.title, :website => c.website, :image => c.image, :incumbent => c.incumbent, :endorsed => c.endorsed} ) %>
 									<% end %>
 								</div>
 							<% end %>

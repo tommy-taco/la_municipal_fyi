@@ -8,6 +8,7 @@
         {
           "name": "Eric Garcetti",
           "incumbent": true,
+          "endorsed": true,
           "title": "Mayor of Los Angeles",
           "website": "http://www.ericgarcetti.com/",
           "image": "/images/EGH.jpg",
@@ -26,6 +27,7 @@
         {
           "name": "Mitchell Schwartz",
           "incumbent": false,
+          "endorsed": false,
           "title": "Political Strategist and Environmentalist",
           "website": "http://schwartzformayor.com/",
           "image": "/images/ms.jpg",
@@ -48,6 +50,7 @@
         {
           "name": "Gil Cedillo",
           "incumbent": true,
+          "endorsed": false,
           "title": "City Council Member",
           "website": "http://www.gilcedillo.com/",
           "image": "/images/gc.jpg",
@@ -65,6 +68,7 @@
         {
           "name": "Joe Bray-Ali",
           "incumbent": false,
+          "endorsed": true,
           "title": "Small Business Owner and Community Organizer",
           "website": "http://joe4cd1.com/",
           "image": "/images/jba.jpg",
@@ -89,6 +93,7 @@
         {
           "name": "Paul Koretz",
           "incumbent": true,
+          "endorsed": false,
           "title": "City Council Member",
           "website": "http://www.paulkoretz2017.com/",
           "image": "/images/pk.jpg",
@@ -106,6 +111,7 @@
         {
           "name": "Jesse Creed",
           "incumbent": false,
+          "endorsed": false,
           "title": "Attorney",
           "website": "http://www.creedforcouncil.com/",
           "image": "/images/jc.jpg",
@@ -125,6 +131,7 @@
     {
       "title": "Measure S",
       "measure": true,
+      "endorsed": true,
       "description": "Initiative to building development for two years",
       "for": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor.",
       "against": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor."
@@ -137,6 +144,7 @@
         {
           "name": "Monica Rodriguez",
           "incumbent": false,
+          "endorsed": false,
           "title": "Community Leader, Veteran, and former CHP Officer",
           "website": "https://monicaforcitycouncil.com/",
           "image": "/images/mr.jpg",
@@ -154,6 +162,7 @@
         {
           "name": "Karo Torossian",
           "incumbent": false,
+          "endorsed": false,
           "title": "Community Organizer and Government Administrator",
           "website": "https://karo4council.com/",
           "image": "/images/kt.jpg",
@@ -171,6 +180,7 @@
         {
           "name": "Mónica Ratliff",
           "incumbent": false,
+          "endorsed": false,
           "title": "Teacher and School Board member",
           "website": "https://monicaratliff2017.nationbuilder.com/about",
           "image": "/images/mr2.png",
@@ -188,6 +198,7 @@
         {
           "name": "Venessa F Martinez",
           "incumbent": false,
+          "endorsed": false,
           "title": "Deputy Attorney General",
           "website": "http://www.votevenessa.com/",
           "image": "/images/vm.jpg",
@@ -212,6 +223,7 @@
         {
           "name": "Curren Price",
           "incumbent": true,
+          "endorsed": false,
           "title": "City Council Member",
           "website": "http://currenpricejr.com/citycouncil/curren/",
           "image": "/images/cp.jpg",
@@ -229,6 +241,7 @@
         {
           "name": "Jorge Nuño",
           "incumbent": false,
+          "endorsed": false,
           "title": "Community Activist and Graphic Designer",
           "website": "http://www.nunoforcouncil.com/",
           "image": "/images/jn.jpg",
@@ -255,6 +268,7 @@
         {
           "name": "Mike Bonin",
           "incumbent": true,
+          "endorsed": true,
           "title": "City Council Member",
           "website": "http://www.mikebonin2017.com/",
           "facebook": "https://www.facebook.com/mikebonincampaign/",
@@ -274,6 +288,7 @@
         {
           "name": "Mark Ryavec",
           "incumbent": false,
+          "endorsed": false,
           "title": "Community and Coastal Activist",
           "website": "http://www.markryavec2017.com/",
           "image": "/images/mr3.jpg",
@@ -299,6 +314,7 @@
         {
           "name": "Mitch O'Farrell",
           "incumbent": true,
+          "endorsed": false,
           "title": "City Council Member",
           "website": "http://www.mitchofarrell.com/",
           "facebook": "https://www.facebook.com/CouncilmemberMitchOFarrell",
@@ -318,6 +334,7 @@
         {
           "name": "Sylvie Shain",
           "incumbent": false,
+          "endorsed": false,
           "title": "Housing Rights Advocate",
           "website": "https://www.sylvieshain.com/",
           "image": "/images/ss.jpg",
@@ -344,6 +361,7 @@
         {
           "name": "Mónica García",
           "incumbent": true,
+          "endorsed": false,
           "title": "School Board Member",
           "website": "http://monica4schoolboard.com/",
           "image": "/images/mg.jpg",
@@ -368,6 +386,7 @@
         {
           "name": "Steve Zimmer",
           "incumbent": true,
+          "endorsed": false,
           "title": "School Board President",
           "website": "http://achieve.lausd.net/zimmer#spn-content",
           "image": "/images/sz.png",
@@ -385,6 +404,7 @@
         {
           "name": "Nick Melvoin",
           "incumbent": false,
+          "endorsed": true,
           "title": "Teacher, Attorney, and Public Education Advocate",
           "website": "http://www.nickmelvoin.com/",
           "image": "/images/nm.jpg",
@@ -404,6 +424,7 @@
         {
           "name": "Allison Holdorff",
           "incumbent": false,
+          "endorsed": false,
           "title": "Public School Governing Board leader and Educator",
           "website": "http://www.allisonforstudents.com/",
           "image": "/images/ah.jpg",
@@ -421,6 +442,7 @@
         {
           "name": "Gregory Martayan",
           "incumbent": false,
+          "endorsed": false,
           "title": "Education Advocate",
           "website": "http://www.votemartayan.com/index.html",
           "image": "/images/gm.jpg",
@@ -446,6 +468,7 @@
         {
           "name": "Kelly Gonez",
           "incumbent": false,
+          "endorsed": true,
           "title": "Teacher and Policy Maker",
           "website": "http://www.kellygonez.com/",
           "fb": "https://www.facebook.com/kellygonezforschoolboard/",
@@ -464,6 +487,7 @@
         {
           "name": "Imelda Padilla",
           "incumbent": false,
+          "endorsed": false,
           "title": "Community Organizer",
           "website": "http://imeldaforschoolboard.com/",
           "image": "/images/ip.jpg",
@@ -482,6 +506,7 @@
         {
           "name": "Araz Parseghian",
           "incumbent": false,
+          "endorsed": false,
           "title": "Businessman and Community Leader",
           "website": "https://www.arazforlausd.com/",
           "image": "/images/ap.jpg",
