@@ -12,14 +12,15 @@
           "website": "http://www.ericgarcetti.com/",
           "image": "/images/EGH.jpg",
           "platform": [
-            "Test",
-            "Test",
-            "Test"
+            "Job Growth",
+            "Transportation",
+            "Immigrant Protection"
           ],
           "endorsements": [
-            "Test",
-            "Test",
-            "Test"
+            "Los Angeles County Democratic Party",
+            "Los Angeles City Council, all members",
+            "Los Angeles County Federation of Labor",
+            "Los Angeles Chamber of Commerce"
           ]
         },
         {
@@ -34,9 +35,7 @@
             "DWP Reform"
           ],
           "endorsements": [
-            "Test",
-            "Test",
-            "Test"
+
           ]
         }
       ]
