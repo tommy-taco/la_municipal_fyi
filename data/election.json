@@ -129,14 +129,6 @@
       ]
     },
     {
-      "title": "Measure S",
-      "measure": true,
-      "endorsed": true,
-      "description": "Initiative to building development for two years",
-      "for": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor.",
-      "against": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at ipsum odio. Aliquam cursus diam sed sem vestibulum, in convallis metus feugiat. Fusce rutrum quis enim vitae fermentum. In eu urna quis sapien hendrerit euismod a nec quam. Maecenas nisl nunc, consequat mattis venenatis sed, gravida id dolor."
-    },
-    {
       "title": "Council District 7",
       "measure": false,
       "description": "Council District representing the northeast San Fernando Valley.",

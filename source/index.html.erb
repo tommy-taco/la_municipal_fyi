@@ -2,10 +2,41 @@
 title: LA Municipal.FYI
 ---
 
+    <div class="jumbotron">
+      <div class="container">
 
-	<div class="container">
-		<h1>Ballot</h1>
-	</div>
+		<div class="row">
+		  <div class="col-md-6">
+			 <h1>LA Municipal.FYI</h1>
+		<p>After an intense 2016 election, it seems people are more fired up about politics than ever before. Luckily for us Angelenos, there is another election around the corner. <b>March 7th</b> we head to the polls to pick our city leaders, and every vote counts in these historically low turnout elections. This is a small effort to raise awareness about what is at stake this spring, get out there and vote!</p>
+		<p><a class="btn btn-primary btn-lg" href="http://lavote.net/home/voting-elections/current-elections/find-my-election-information?polling-location" role="button">Find Your Ballot and Poll Station</a></p>
+		  </div>
+		  <div class="col-md-6">
+			<h2>Races</h2>
+
+			<% data.election.races.each do |r| %>
+			<ul class="list-group">
+				<li class="list-group-item"><%= r.title %> - <%= r.description %></li>
+
+			</ul>
+
+
+			<% end %>
+
+
+
+			<h2>Measures</h2>
+
+
+
+
+
+		  </div>
+		</div>
+
+
+      </div>
+    </div>
 	  
 	<div class="container">
 	  
