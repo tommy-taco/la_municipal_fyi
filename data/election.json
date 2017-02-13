@@ -3,7 +3,7 @@
     {
       "title": "Mayor of Los Angeles",
       "measure": false,
-      "description": "The Mayor of the City of Los Angeles is the official head and chief executive officer of Los Angeles, California and elected for a four year term.",
+      "description": "Official head and chief executive officer of Los Angeles",
       "candidates": [
         {
           "name": "Eric Garcetti",
@@ -45,7 +45,7 @@
     {
       "title": "Council District 1",
       "measure": false,
-      "description": "Council District Representing northwest of Downtown Los Angeles",
+      "description": "Northwest of Downtown Los Angeles",
       "candidates": [
         {
           "name": "Gil Cedillo",
@@ -88,7 +88,7 @@
     {
       "title": "Council District 5",
       "measure": false,
-      "description": "Council District representing the Westside, parts of the Santa Monica Mountains, and the central-southern San Fernando Valley.",
+      "description": "Westside, parts of the Santa Monica Mountains, and the central-southern San Fernando Valley.",
       "candidates": [
         {
           "name": "Paul Koretz",
@@ -131,7 +131,7 @@
     {
       "title": "Council District 7",
       "measure": false,
-      "description": "Council District representing the northeast San Fernando Valley.",
+      "description": "Northeast San Fernando Valley.",
       "candidates": [
         {
           "name": "Monica Rodriguez",
@@ -210,7 +210,7 @@
     {
       "title": "Council District 9",
       "measure": false,
-      "description": "Council District representing the Western Downtown and much of South LA",
+      "description": "Western Downtown and much of South LA",
       "candidates": [
         {
           "name": "Curren Price",
@@ -255,7 +255,7 @@
     {
       "title": "Council District 11",
       "measure": false,
-      "description": "Council District representing the Westside",
+      "description": "Westside",
       "candidates": [
         {
           "name": "Mike Bonin",
@@ -301,7 +301,7 @@
     {
       "title": "Council District 13",
       "measure": false,
-      "description": "Council District representing Central Los Angeles",
+      "description": "Central Los Angeles",
       "candidates": [
         {
           "name": "Mitch O'Farrell",
@@ -348,7 +348,7 @@
     {
       "title": "School Board District 2",
       "measure": false,
-      "description": "School Board District representing Downtown Los Angeles",
+      "description": "Downtown Los Angeles",
       "candidates": [
         {
           "name": "Mónica García",
@@ -373,7 +373,7 @@
     {
       "title": "School Board District 4",
       "measure": false,
-      "description": "School Board District representing the Westside",
+      "description": "Westside and parts of Central LA and the Valley",
       "candidates": [
         {
           "name": "Steve Zimmer",
@@ -455,7 +455,7 @@
     {
       "title": "School Board District 6",
       "measure": false,
-      "description": "School Board District representing the Northern San Fernando Valley",
+      "description": "Northern San Fernando Valley",
       "candidates": [
         {
           "name": "Kelly Gonez",
@@ -516,5 +516,31 @@
         }
       ]
     }
-  ]
+  ],
+  "measures": [
+    {
+      "title": "Measure H",
+      "measure": true,
+      "endorsed": true,
+      "description": "Sales tax measure to fund homeless services and prevention",
+      "for": "Creates a 0.25% county sales tax for 10 years in order to fund homeless services and prevention.",
+      "against": "A no vote would stop the .25% increase in the sales tax."
+    },
+    {
+      "title": "Measure M",
+      "measure": true,
+      "endorsed": true,
+      "description": "Fully legalize medical pot shops in L.A. and clears the way for recreational weed retailers in the city next year",
+      "for": "enacting the city council's ordinance to regulate and tax marijuana in light of statewide recreational marijuana legalization according to Prop. 64, which was approved in November 2016, and allow the city council and mayor to establish and amend regulations of the marijuana industry within the city.",
+      "against": "A no vote would stop it from going into place and place more roadblocks to marijuana sales in Los Angeles"
+    },
+    {
+      "title": "Measure S",
+      "measure": true,
+      "description": "Initiative to change the city's laws on development and halt most construction for two years",
+      "for": "Proponents of Measure S argue that the existing zoning and project approval system in Los Angeles allows developers to give political contributions to city officials in return for approval of their large development projects, which they say increase traffic, ruin neighborhood integrity, and result in the eviction of residents—including senior citizens and low-income households.",
+      "against": "Opponents of Measure S argue that the proposed moratorium and restrictions on project approval would put a stop to most development projects in the city, resulting in an even greater housing shortage, economic decline, the loss of thousands of jobs, and the loss of millions in tax revenue for education, parks, and other city services. Opponents also argue that none of the provisions in Measure S directly address corruption in the city planning process or developer contributions."
+    }
+
+   ]
 }

@@ -16,7 +16,7 @@ title: LA Municipal.FYI
 
 			<% data.election.races.each do |r| %>
 			<ul class="list-group">
-				<li class="list-group-item"><%= r.title %> - <%= r.description %></li>
+				<li class="list-group-item tc"><%= r.title %> - <%= r.description %></li>
 
 			</ul>
 
@@ -25,8 +25,15 @@ title: LA Municipal.FYI
 
 
 
-			<h2>Measures</h2>
+			<h2>LA City and County Measures</h2>
+			<% data.election.measures.each do |r| %>
+			<ul class="list-group">
+				<li class="list-group-item tc"><%= r.title %> - <%= r.description %></li>
 
+			</ul>
+
+
+			<% end %>
 
 
 
