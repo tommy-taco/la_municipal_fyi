@@ -616,6 +616,11 @@ h3, .h3 {
   font-size: 1rem;
 }
 
+h3.endorsed::after {
+    content: url('/images/LA_Times_icon.png');
+    margin-left: 5px;
+  }
+
 h4, .h4 {
   font-size: .75rem;
 }

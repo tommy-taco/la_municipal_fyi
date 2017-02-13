@@ -17,28 +17,27 @@ title: LA Municipal.FYI
 					
 					<div style="padding-top: 20px;">
 						<h2><%= r.title %></h2>
-						
+						<% if r.measure===false %>
 						<div class="row">
 							<div class="description">
-								<% if r.measure===true %>
-									<p><%= r.description %></p><strong>Yes and No</strong>
-								<% else %>
-									<p><%= r.description %></p><strong>Candidates</strong>
+								<p><%= r.description %></p><strong>Candidates</strong>
+							</div>		
+							<div class="col-md-12">
+								<% r.candidates.each do |c| %>
+									<%= partial("candidate", :locals => { :name => c.name, :title => c.title, :website => c.website, :image => c.image, :incumbent => c.incumbent, :endorsed => c.endorsed} ) %>
 								<% end %>
 							</div>
-						
-							<% if r.measure===true %>
-								<div class="col-md-12">
-								
-								</div>
-							<% else %>		
-								<div class="col-md-12">
-									<% r.candidates.each do |c| %>
-										<%= partial("candidate", :locals => { :name => c.name, :title => c.title, :website => c.website, :image => c.image, :incumbent => c.incumbent, :endorsed => c.endorsed} ) %>
-									<% end %>
-								</div>
-							<% end %>
 						</div>
+						<% else %>
+						<div class="row">
+							<div class="description">
+								<p><%= r.description %></p><strong>Yes and No</strong>
+							</div>
+							<div class="col-md-12">
+							
+							</div>
+						</div>
+						<% end %>
 					</div>
 				
 				</div> <! width 100% !> 

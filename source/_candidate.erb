@@ -2,15 +2,15 @@
       <img src="<%= image %>" alt=<%= name %> />
       
       <div class="descriptionDiv">
-	      <h3><a href="<%= website %>" title="<%= website %>"><%= name %></a></h3>
-	      <h4><%= title %></h4>
+	      <% if endorsed===true %>
+	      	<h3 class="endorsed"><a href="<%= website %>" title="<%= website %>"><%= name %></a></h3>
+		  <% else %>
+		  	<h3><a href="<%= website %>" title="<%= website %>"><%= name %></a></h3>
+		  <% end %>	      <h4><%= title %></h4>
 	      <% if incumbent===true %>
 		  <h4 style="color: #4e4e4e; margin-bottom: 0px;"><i>Incumbent</i></h4>		  <% else %>
 		  <% end %>
-		  <% if endorsed===true %>
-		  <img src="images/LAT_Icon.png" style="max-width: 100%;padding-top: 5%;"/>
-		  <% else %>
-		  <% end %>
+		  
       </div>
       <!--<div class="arrowDiv">
 	      <a href="<%= website %>"><img style="max-width: none;" src="images/arrow.svg"></a>
