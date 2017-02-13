@@ -2,10 +2,13 @@
       	<img src="<%= image %>" alt=<%= name %> />
       
       	<div class="descriptionDiv">
-		  <h3><a href="<%= website %>" title="<%= website %>"><%= name %></a></h3>
-		  <h4><%= title %></h4>
+	      <% if endorsed===true %>
+	      	<h3 class="endorsed"><a href="<%= website %>" title="<%= website %>"><%= name %></a></h3>
+		  <% else %>
+		  	<h3><a href="<%= website %>" title="<%= website %>"><%= name %></a></h3>
+		  <% end %>	      <h4><%= title %></h4>
 	      <% if incumbent===true %>
-		  	<h4 style="color: #4e4e4e; margin-bottom: 0px;"><i>Incumbent</i></h4>		  <% else %>
+		  <h4 style="color: #4e4e4e; margin-bottom: 0px;"><i>Incumbent</i></h4>		  <% else %>
 		  <% end %>
 		</div>
 		
@@ -13,9 +16,7 @@
 			<h4><strong>Platform</strong></h4>
 			
 			<h4><strong>Endorsements</strong></h4>
-				<% r.candidates.each do |c| %>
-					<h4><%= r.candidates.endorsements %></h4>
-				<% end %>
+			
 		</div>
 		
       <!--<div class="arrowDiv">
